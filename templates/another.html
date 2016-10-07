@@ -1,0 +1,20 @@
+<!Doctype html> 
+<html>
+<head>
+	<title>DOJO</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+	
+	<h1>User Info page</h1>
+		<p>Name: {{session['name']}}</p>
+		<p>Location: {{session['location'] }}</p>
+		<p>Languag :{{session['language']}}</p>
+		<p>Comment:{{session['comment']}}</p>
+	
+		
+	
+
+
+</body>
+</html>

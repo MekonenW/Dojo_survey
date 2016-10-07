@@ -1,0 +1,24 @@
+#left {
+	width: 400px; 
+	margin: 20px; 
+	border: 4px solid black; 
+	display: inline-block;
+	vertical-align: top;
+	height: 500px;
+
+}
+#right {
+	width: 400px; 
+	margin: 20px; 
+	border: 4px solid black; 
+	display: inline-block;
+	vertical-align: top;
+	height: 500px; 
+
+}
+ul {
+text-decoration: none;
+}
+h4{
+	text-align: center;
+}
